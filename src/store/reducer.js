@@ -4,11 +4,11 @@ export const initialState = {
 
 export function reducer(state = initialState, action) {
   switch (action.type) {
-    case 'INCREMENT':
+    case "INCREMENT":
       return {
         count: state.count + 1,
       };
-    case 'DECREMENT':
+    case "DECREMENT":
       return {
         count: state.count - 1,
       };
